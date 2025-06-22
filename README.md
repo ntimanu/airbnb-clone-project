@@ -54,8 +54,16 @@ Plan a normalized relational database schema including entities like users, list
 ### 🔐 API Security
 Protect endpoints with proper authentication and authorization mechanisms (e.g., JWT, role-based access).
 
-### 🚀 CI/CD Integration
-Automate testing and deployment using Docker and GitHub Actions to ensure fast and reliable delivery.
+### 🚀 CI/CD Pipeline
+CI/CD (Continuous Integration and Continuous Deployment) is a set of practices that automate the processes of building, testing, and deploying code. In the context of this Airbnb Clone project, CI/CD ensures that new code changes are continuously integrated, tested for reliability, and automatically deployed to the server without manual intervention.
+
+Implementing CI/CD pipelines improves collaboration, accelerates delivery, and reduces the risk of introducing bugs during deployment. It also helps maintain code quality and system stability as the application grows.
+
+Tools commonly used in this project’s CI/CD pipeline include:
+GitHub Actions – For automating workflows such as testing, linting, and deployment directly from GitHub.
+Docker – To containerize the application, making it easy to deploy across different environments.
+Heroku / Render / AWS / DigitalOcean – For cloud deployment and environment management.
+pytest / unittest – For automated backend testing before deployment.
 
 ### 🎯 Feature Breakdown
 The Airbnb Clone Project is designed to mirror the essential features of a real-world booking platform. Below is a breakdown of the core functionalities that bring the application to life:
